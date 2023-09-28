@@ -16,15 +16,15 @@ pip3 install flask > /dev/null 2>&1
 rm /bin/chany > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://raw.githubusercontent.com/Cyber-ssh/checkany/main/chany > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Cyber-ssh/checkany/main/userscheck > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckAny-V2/main/chany > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckAny-V2/main/userscheck > /dev/null 2>&1
 chmod 777 chany > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1
 clear
 mkdir /usr/lib/checkany > /dev/null 2>&1
 cd /usr/lib/checkany || exit
 rm checkany.py > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Cyber-ssh/checkany/main/checkany.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/PhoenixxZ2023/CheckAny-V2/main/checkany.py > /dev/null 2>&1
 chmod 777 checkany.py > /dev/null 2>&1
 clear
 echo -e "        \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"
@@ -33,6 +33,6 @@ clear
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mchany\033[0m"
 echo ""
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@Cyberssh23\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@TURBONET2023\033[0m"
 cat /dev/null > ~/.bash_history && history -c
 exit
